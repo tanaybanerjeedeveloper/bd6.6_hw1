@@ -109,6 +109,18 @@ describe("Controller functions testing", () => {
   });
 
   it("should return movie by id", () => {
+    // let mockData = {
+    //   movieId: 3,
+    //   title: "The Godfather",
+    //   genre: "Crime",
+    //   director: "Francis Ford Coppola",
+    // };
+    // getMovieById.mockReturnValue(mockData);
+
+    // let result = getMovieById(3);
+
+    // expect(result).toEqual(mockData);
+
     let mockData = {
       movieId: 3,
       title: "The Godfather",
